@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title data-i18n="meta.title">Cà Phê Lơ Mơ · Vietnamesisches Café in Zürich Wiedikon</title>
+<meta name="description" data-i18n-content="meta.desc" content="Cà Phê Lơ Mơ: familiengeführtes vietnamesisches Café an der Badenerstrasse 281 in Zürich Wiedikon. Bac Xiu, Banh Mi und Kuchen, Mi bis Sa, 10 bis 17 Uhr.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Instrument+Sans:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#karte" data-i18n="skip">Zum Inhalt</a>
+
+<header class="topbar">
+  <a class="wordmark" href="#top" data-i18n-aria="aria.home" aria-label="Zur Startseite">
+    <span class="wordmark-name">Cà Phê Lơ Mơ</span>
+    <span class="wordmark-tag" data-i18n="nav.tag">Vietnamesisches Café · Wiedikon</span>
+  </a>
+  <nav class="topnav" aria-label="Hauptnavigation">
+    <a href="#karte" data-i18n="nav.menu">Karte</a>
+    <a href="#name" data-i18n="nav.story">Der Name</a>
+    <a href="#besuch" data-i18n="nav.visit">Besuch</a>
+  </nav>
+  <div class="top-actions">
+    <div class="lang-switch" role="group" aria-label="Sprache / Language">
+      <button type="button" class="lang-btn is-active" data-lang="de" aria-pressed="true">DE</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="icon-btn" href="https://www.instagram.com/caphe.lomo/" target="_blank" rel="noopener" data-i18n-aria="aria.ig" aria-label="Cà Phê Lơ Mơ auf Instagram">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="chip chip-rating">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+        <span data-i18n="hero.chip">5.0 · 201 Google-Bewertungen</span>
+      </p>
+      <h1 class="hero-title">
+        <span class="line" data-i18n="hero.h1a">Kaffee,</span>
+        <span class="line" data-i18n="hero.h1b">langsam wie ein</span>
+        <span class="line line-accent" data-i18n="hero.h1c">Tagtraum.</span>
+      </h1>
+      <p class="kicker" data-i18n="hero.kicker">Vietnamesisches Café · Zürich Kreis 3</p>
+      <p class="rotate-line">
+        <span data-i18n="hero.rotatePre">Heute im Glas:</span>
+        <span class="rotate-word" id="rotateWord">intensiv</span>
+      </p>
+      <p class="lede" data-i18n="hero.lede">Ein kleines, familiengeführtes Café an der Badenerstrasse. Intensiver vietnamesischer Kaffee, ein würziges Banh Mi und Kuchen, für die man gerne etwas langsamer macht.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#karte" data-i18n="hero.ctaMenu">Speisekarte ansehen</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=C%C3%A0+Ph%C3%AA+L%C6%A1+M%C6%A1+Badenerstrasse+281+8003+Z%C3%BCrich" target="_blank" rel="noopener" data-i18n="hero.ctaRoute">Route planen</a>
+      </div>
+      <p class="hero-note hand" data-i18n="hero.note">geöffnet Mi bis Sa, 10 bis 17 Uhr</p>
+    </div>
+    <figure class="hero-figure">
+      <span class="echo echo-a" data-depth="0.3" aria-hidden="true"></span>
+      <span class="echo echo-b" data-depth="0.55" aria-hidden="true"></span>
+      <div class="hero-img-wrap" data-depth="0.7">
+        <img class="hero-img" id="heroImg" data-depth="0.95" data-zoom="1.08" src="assets/hero.webp" alt="Ein Glas Bac Xiu mit Schichten aus Milch und Kaffee, daneben ein Phin-Filter (Konzeptbild)" data-i18n-alt="hero.imgAlt" fetchpriority="high">
+        <svg class="drip" viewBox="0 0 24 40" width="22" height="37" aria-hidden="true"><path d="M12 3c3.5 4.6 6 8.4 6 11.4A6 6 0 1 1 6 14.4C6 11.4 8.5 7.6 12 3z" fill="currentColor"/></svg>
+      </div>
+      <span class="ring ring-a" data-depth="1.15" aria-hidden="true"></span>
+      <span class="ring ring-b" data-depth="1.3" aria-hidden="true"></span>
+    </figure>
+  </section>
+
+  <!-- INFO RIBBON -->
+  <div class="ribbon" role="list">
+    <div class="rib" role="listitem">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      <span><strong data-i18n="rib.days">Mi bis Sa</strong><em data-i18n="rib.hours">10 bis 17 Uhr</em></span>
+    </div>
+    <div class="rib" role="listitem">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21s-6.5-5.4-6.5-10.4A6.5 6.5 0 0 1 12 4a6.5 6.5 0 0 1 6.5 6.6C18.5 15.6 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.3"/></svg>
+      <span><strong data-i18n="rib.addr">Badenerstrasse 281</strong><em>8003 Zürich</em></span>
+    </div>
+    <div class="rib" role="listitem">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-7.5-10A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 7.5 3.5c0 5.4-7.5 10-7.5 10z"/></svg>
+      <span><strong data-i18n="rib.fam">Familiengeführt</strong><em data-i18n="rib.famSub">mit viel Herz</em></span>
+    </div>
+    <div class="rib" role="listitem">
+      <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+      <span><strong data-i18n="rib.rate">5.0 auf Google</strong><em data-i18n="rib.rateSub">201 Bewertungen</em></span>
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <section class="gallery reveal" aria-labelledby="gal-h">
+    <div class="section-head">
+      <h2 id="gal-h" data-i18n="gal.h2">Ein kleiner Tagtraum in Bildern</h2>
+      <p class="kicker" data-i18n="gal.kicker">Stimmungsbilder</p>
+      <p class="section-sub" data-i18n="gal.note">Konzeptbilder: So fühlt sich Lơ Mơ an. Die echten Eindrücke gibt es im Café und auf Instagram.</p>
+    </div>
+    <div class="gal-track" id="galTrack">
+      <figure class="gal-item">
+        <img src="assets/phin.webp" alt="Ein Phin-Filter tropft langsam in ein Glas mit Kondensmilch (Konzeptbild)" data-i18n-alt="alt.phin" loading="lazy">
+        <figcaption class="hand" data-i18n="cap.phin">Tropfen für Tropfen</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="assets/banhmi.webp" alt="Ein Banh Mi mit Schweinefleisch und Kräutern auf einem Keramikteller (Konzeptbild)" data-i18n-alt="alt.banhmi" loading="lazy">
+        <figcaption class="hand" data-i18n="cap.banhmi">Banh Mi und Eiskaffee</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="assets/cake.webp" alt="Honigschichtkuchen und Tiramisu mit Mandarine auf Keramiktellern (Konzeptbild)" data-i18n-alt="alt.cake" loading="lazy">
+        <figcaption class="hand" data-i18n="cap.cake">Honig und Mandarine</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="assets/interior.webp" alt="Ein ruhiges Café mit Holztischen und Morgenlicht (Konzeptbild)" data-i18n-alt="alt.interior" loading="lazy">
+        <figcaption class="hand" data-i18n="cap.interior">Ein ruhiger Morgen</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="assets/bread.webp" alt="Bananenbrot auf Leinen, daneben Honig und dunkler Kaffee (Konzeptbild)" data-i18n-alt="alt.bread" loading="lazy">
+        <figcaption class="hand" data-i18n="cap.bread">Bananenbrot und Honig</figcaption>
+      </figure>
+    </div>
+    <p class="gal-hint hand" data-i18n="gal.hint">wischen zum Stöbern</p>
+  </section>
+
+  <!-- SIGNATURES -->
+  <section class="sig reveal" aria-labelledby="sig-h">
+    <div class="section-head">
+      <h2 id="sig-h" data-i18n="sig.h2">Zwei Dinge, die man probieren sollte</h2>
+      <p class="kicker" data-i18n="sig.kicker">Hauslieblinge</p>
+    </div>
+    <article class="feature">
+      <figure class="feature-img">
+        <img src="assets/hero.webp" alt="Ein Glas Bac Xiu mit Schichten aus Milch und Kaffee (Konzeptbild)" data-i18n-alt="alt.bacxiu" loading="lazy">
+      </figure>
+      <div class="feature-text">
+        <h3>Bac Xiu</h3>
+        <p class="tag" data-i18n="sig1.tag">Milch zuerst</p>
+        <p data-i18n="sig1.p">Saigons weisser Kaffee: viel Kondensmilch und Milch, darüber nur ein wenig starker Kaffee. Süss, mild und klassisch auf Eis serviert. Der sanfte Einstieg in den vietnamesischen Kaffee.</p>
+      </div>
+    </article>
+    <article class="feature feature-flip">
+      <figure class="feature-img">
+        <img src="assets/banhmi.webp" alt="Ein Banh Mi mit Schweinefleisch und Kräutern auf einem Keramikteller (Konzeptbild)" data-i18n-alt="alt.banhmi" loading="lazy">
+      </figure>
+      <div class="feature-text">
+        <h3 data-i18n="sig2.h3">Banh Mi mit Schweinefleisch</h3>
+        <p class="tag" data-i18n="sig2.tag">Würzig und knusprig</p>
+        <p data-i18n="sig2.p">Knuspriges Baguette mit würzigem Schweinefleisch: Das französisch-vietnamesische Sandwich ist der herzhafte Gegenpart zum süssen Kaffee und steht bei Lơ Mơ fest auf der Karte.</p>
+        <a class="text-link" href="#karte" data-i18n="sig.cta">Zur Speisekarte</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- THE NAME -->
+  <section class="name-sec reveal" id="name" aria-labelledby="name-h">
+    <svg class="name-drop" viewBox="0 0 24 40" width="26" height="44" aria-hidden="true"><path d="M12 3c3.5 4.6 6 8.4 6 11.4A6 6 0 1 1 6 14.4C6 11.4 8.5 7.6 12 3z" fill="currentColor"/></svg>
+    <h2 id="name-h" data-i18n="name.h2">Lơ Mơ heisst: halb wach, ganz verträumt</h2>
+    <p class="kicker" data-i18n="name.kicker">Der Name</p>
+    <p data-i18n="name.p1">«Cà phê» ist Vietnamesisch für Kaffee. «Lơ mơ» beschreibt diesen Zustand zwischen Wachen und Träumen, wenn der Kopf noch langsam ist und der Tag noch alles werden kann.</p>
+    <p data-i18n="name.p2">Dazu passt, wie in Vietnam Kaffee gemacht wird: Starker Robusta tropft langsam durch einen kleinen Stahlfilter, den Phin, direkt ins Glas, oft auf süsse Kondensmilch. Vier bis sechs Minuten dauert das. Zeit genug, um kurz wegzuträumen.</p>
+    <p data-i18n="name.p3">Und dazu passt auch der Rest: Lơ Mơ ist familiengeführt und nur vier Tage die Woche offen. Kein Durchlauf und kein Lärm, einfach ein ruhiger Tisch in Wiedikon.</p>
+    <div class="chips">
+      <span class="chip" data-i18n="name.chip1">Phin: 4 bis 6 Minuten pro Glas</span>
+      <span class="chip" data-i18n="name.chip2">Nur Mi bis Sa offen</span>
+      <span class="chip" data-i18n="name.chip3">Bac Xiu und Banh Mi</span>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-sec" id="karte" aria-labelledby="menu-h">
+    <div class="menu-card reveal">
+      <h2 id="menu-h" data-i18n="menu.h2">Klein, fein und vietnamesisch</h2>
+      <p class="kicker kicker-light" data-i18n="menu.kicker">Speisekarte</p>
+      <p class="menu-sub" data-i18n="menu.sub">Was öffentlich über die Karte bekannt ist, steht hier. Die Karte im Café kann mehr haben und wechselt mit dem Tag.</p>
+
+      <div class="menu-grid">
+        <div class="menu-cat">
+          <h3 data-i18n="menu.cat1">Kaffee</h3>
+          <div class="dish">
+            <p class="dish-name" data-i18n="m1.name">Vietnamesischer Kaffee</p>
+            <p class="dish-desc" data-i18n="m1.desc">Intensiv und aromatisch, der Klassiker des Hauses</p>
+          </div>
+          <div class="dish">
+            <p class="dish-name">Bac Xiu</p>
+            <p class="dish-desc" data-i18n="m2.desc">Milch zuerst, dann ein wenig Kaffee: süss, mild, auf Eis</p>
+          </div>
+        </div>
+        <div class="menu-cat">
+          <h3 data-i18n="menu.cat2">Aus der Küche</h3>
+          <div class="dish">
+            <p class="dish-name">Banh Mi</p>
+            <p class="dish-desc" data-i18n="m3.desc">Mit würzigem Schweinefleisch im knusprigen Baguette</p>
+          </div>
+          <div class="dish">
+            <p class="dish-name" data-i18n="m4.name">Weitere Speisen und Desserts</p>
+            <p class="dish-desc" data-i18n="m4.desc">Die Auswahl ist grösser als diese Karte hier: einfach im Café schauen</p>
+          </div>
+        </div>
+        <div class="menu-cat">
+          <h3 data-i18n="menu.cat3">Süsses</h3>
+          <div class="dish">
+            <p class="dish-name" data-i18n="m5.name">Bananenbrot</p>
+            <p class="dish-desc" data-i18n="m5.desc">Passt zu jedem Kaffee auf der Karte</p>
+          </div>
+          <div class="dish">
+            <p class="dish-name" data-i18n="m6.name">Honeybomb-Kuchen</p>
+            <p class="dish-desc" data-i18n="m6.desc">Honig in Schichten</p>
+          </div>
+          <div class="dish">
+            <p class="dish-name" data-i18n="m7.name">Mandarinen-Jasmin-Tiramisu</p>
+            <p class="dish-desc" data-i18n="m7.desc">Tiramisu mit Mandarine und Jasmin</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="menu-note" data-i18n="menu.note">Keine Preise auf dieser Seite: Die aktuellen Preise stehen im Café an der Karte.</p>
+      <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=C%C3%A0+Ph%C3%AA+L%C6%A1+M%C6%A1+Badenerstrasse+281+8003+Z%C3%BCrich" target="_blank" rel="noopener" data-i18n="menu.cta">Route zum Café</a>
+    </div>
+  </section>
+
+  <!-- ACCOLADES -->
+  <section class="acc reveal" aria-labelledby="acc-h">
+    <p class="kicker" data-i18n="acc.kicker">Stimmen</p>
+    <div class="acc-big">
+      <span class="acc-num">5.0</span>
+      <span class="acc-stars" aria-hidden="true">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+      </span>
+      <p class="acc-caption"><span data-i18n="acc.stars">von 5 Sternen</span> · <span data-i18n="acc.reviews">aus 201 Google-Bewertungen</span></p>
+    </div>
+    <h2 id="acc-h" class="visually-hidden" data-i18n="acc.h2">Was andere über Lơ Mơ sagen</h2>
+    <div class="acc-grid">
+      <div class="acc-item">
+        <p class="acc-item-h" data-i18n="acc1.h">Nr. 2 von 9</p>
+        <p data-i18n="acc1.p">In der Liste der besten Coffee Spots in Zürich von zurich10.com</p>
+      </div>
+      <div class="acc-item">
+        <p class="acc-item-h" data-i18n="acc2.h">«Unser Lieblingscafe»</p>
+        <p data-i18n="acc2.p">So nennt es der Zürcher Podcast SpaceKitchen in seinen Shownotes</p>
+      </div>
+      <div class="acc-item">
+        <p class="acc-item-h" data-i18n="acc3.h">Freundlich und persönlich</p>
+        <p data-i18n="acc3.p">So beschreibt zurich10 den Service im Lơ Mơ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="visit reveal" id="besuch" aria-labelledby="visit-h">
+    <div class="section-head">
+      <h2 id="visit-h" data-i18n="visit.h2">Vier Tage die Woche, mitten in Wiedikon</h2>
+      <p class="kicker" data-i18n="visit.kicker">Besuch</p>
+    </div>
+    <div class="visit-grid">
+      <div class="card hours-card">
+        <h3>
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <span data-i18n="visit.hoursTitle">Öffnungszeiten</span>
+        </h3>
+        <table class="hours">
+          <tbody>
+            <tr data-day="1"><th scope="row" data-i18n="d.mon">Montag</th><td data-i18n="closed">geschlossen</td></tr>
+            <tr data-day="2"><th scope="row" data-i18n="d.tue">Dienstag</th><td data-i18n="closed">geschlossen</td></tr>
+            <tr data-day="3"><th scope="row" data-i18n="d.wed">Mittwoch</th><td data-i18n="hrs.open">10 bis 17 Uhr</td></tr>
+            <tr data-day="4"><th scope="row" data-i18n="d.thu">Donnerstag</th><td data-i18n="hrs.open">10 bis 17 Uhr</td></tr>
+            <tr data-day="5"><th scope="row" data-i18n="d.fri">Freitag</th><td data-i18n="hrs.open">10 bis 17 Uhr</td></tr>
+            <tr data-day="6"><th scope="row" data-i18n="d.sat">Samstag</th><td data-i18n="hrs.open">10 bis 17 Uhr</td></tr>
+            <tr data-day="0"><th scope="row" data-i18n="d.sun">Sonntag</th><td data-i18n="closed">geschlossen</td></tr>
+          </tbody>
+        </table>
+        <p class="fine" data-i18n="visit.hoursNote">Zeiten gemäss Google-Eintrag des Cafés. Änderungen vorbehalten.</p>
+      </div>
+      <div class="visit-side">
+        <div class="card">
+          <h3>
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21s-6.5-5.4-6.5-10.4A6.5 6.5 0 0 1 12 4a6.5 6.5 0 0 1 6.5 6.6C18.5 15.6 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.3"/></svg>
+            <span data-i18n="visit.addrTitle">Adresse</span>
+          </h3>
+          <p class="addr-line">Cà Phê Lơ Mơ<br>Badenerstrasse 281<br>8003 Zürich</p>
+          <p class="fine" data-i18n="visit.addrNote">Im Kreis 3, Wiedikon, an der Badenerstrasse.</p>
+          <a class="btn btn-primary btn-block" href="https://www.google.com/maps/dir/?api=1&amp;destination=C%C3%A0+Ph%C3%AA+L%C6%A1+M%C6%A1+Badenerstrasse+281+8003+Z%C3%BCrich" target="_blank" rel="noopener" data-i18n="visit.routeBtn">Route in Google Maps</a>
+        </div>
+        <div class="card">
+          <h3>
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </h3>
+          <p data-i18n="visit.igP">Das Café ist auf Instagram zu Hause: @caphe.lomo. Eine Telefonnummer ist nicht veröffentlicht.</p>
+          <a class="btn btn-ghost btn-block" href="https://www.instagram.com/caphe.lomo/" target="_blank" rel="noopener" data-i18n="visit.igBtn">Zu Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer-name">Cà Phê Lơ Mơ</p>
+  <p class="footer-tag" data-i18n="foot.tag">Vietnamesischer Kaffee, langsam serviert in Wiedikon.</p>
+  <p class="footer-meta" data-i18n="foot.hours">Mi bis Sa · 10 bis 17 Uhr</p>
+  <p class="footer-meta">Badenerstrasse 281, 8003 Zürich</p>
+  <a class="footer-top" href="#top" data-i18n="foot.top">Nach oben</a>
+  <p class="footer-demo" data-i18n="foot.demo">Demo-Website für Cà Phê Lơ Mơ. Alle Bilder sind Konzeptbilder, alle Angaben stammen aus öffentlichen Quellen (Stand November 2026).</p>
+</footer>
+
+<nav class="bar" aria-label="Schnellzugriff">
+  <a href="#karte">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5V5.5"/><path d="M20 18H6.5A2.5 2.5 0 0 0 4 20.5"/></svg>
+    <span data-i18n="bar.menu">Karte</span>
+  </a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=C%C3%A0+Ph%C3%AA+L%C6%A1+M%C6%A1+Badenerstrasse+281+8003+Z%C3%BCrich" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5L21 3l-8.5 18-2.3-7.2z"/></svg>
+    <span data-i18n="bar.route">Route</span>
+  </a>
+  <a href="https://www.instagram.com/caphe.lomo/" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+    <span data-i18n="bar.ig">Instagram</span>
+  </a>
+  <a href="#besuch">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+    <span data-i18n="bar.hours">Zeiten</span>
+  </a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
